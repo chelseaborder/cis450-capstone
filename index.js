@@ -1,33 +1,59 @@
 {
-  const school = schools[0]
 
-  for(var i = 0; i < school.features.length; i++) {
+  let schoolsListHTML = ''
 
-    let row = `
-      <tr>
-        <td>${school.features[i].name}</td>
-        <td>${school.features[i].value}</td>
-        <td>${school.features[i].rank}</td>
-      </tr>
+  for(let i=0; i<schools.length; i++){
+    const school = schools[i]
+
+    let title = `<h1>${school.name}</h1>`
+
+    let rows = ''
+    for(const feature of school.features) {
+
+      let row = `
+        <tr>
+          <td>${feature.name}</td>
+          <td>${feature.value}</td>
+          <td>${feature.rank}</td>
+        </tr>
+      `
+
+      rows += row + '\n'
+    }
+
+    const locationStr = school.location.city + ", " + school.location.state + " " + school.location.zipcode
+    let className = "content"
+    if(i === 0){
+      className += " active"
+    }
+
+    const singleSchoolHTML = `
+      <div class="${className}">
+        <h1>${school.name}</h1>
+        <h2>${locationStr}</h2>
+        <table style="width:100%" id="myTable">
+          <tr>
+            <th>Feature</th>
+            <th>Score</th>
+            <th>Rank</th>
+          </tr>
+          ${rows}
+        </table>
+        <a class="button" href="#">Next School &rarr;</a>
+      </div>
     `
 
-    $('#myTable > tbody:last-child').append(row)
+    schoolsListHTML += singleSchoolHTML + '\n'
 
   }
 
+  schoolsListHTML += `
+    <div class="progress-container">
+        <div class="step"></div>
+    </div>
+  `
+
+  document.getElementById('cardList').innerHTML = schoolsListHTML
+
+
 }
-
-console.log(schools[0])
-
-
-
-// for each school {
-//   make card
-//   set title to school.name
-//   set subtitle to school.location
-//   make table
-//   for each school.feature
-//     add row
-//       feature = school.feature.name
-//       value = school.feature.value
-//       rank = school.feature.rank
