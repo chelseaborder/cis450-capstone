@@ -14,7 +14,7 @@ for(const oldSchool of oldSchoolsList){
     },
     score: oldSchool.totalscore,
     rank: oldSchool.totalrank,
-    feature: [
+    features: [
       {
         name: 'Undergrad Enrollment',
         value: oldSchool.totalug,
@@ -63,7 +63,7 @@ for(const oldSchool of oldSchoolsList){
 
 const schoolsAsString = JSON.stringify(newSchoolsList,null,2)
 
-const outputFileContent = 'var data = ' + schoolsAsString
+const outputFileContent = 'var schools = ' + schoolsAsString
 
 fs.writeFile('data.js',outputFileContent,'utf-8',()=>{
   console.log('Done!')

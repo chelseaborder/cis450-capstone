@@ -1,4 +1,4 @@
-var data = [
+var schools = [
   {
     "name": "University of Texas: Austin",
     "location": {
@@ -8,7 +8,7 @@ var data = [
     },
     "score": 82,
     "rank": 1,
-    "feature": [
+    "features": [
       {
         "name": "Undergrad Enrollment",
         "value": 39057,
@@ -60,7 +60,7 @@ var data = [
     },
     "score": 138,
     "rank": 2,
-    "feature": [
+    "features": [
       {
         "name": "Undergrad Enrollment",
         "value": 27496,
@@ -112,7 +112,7 @@ var data = [
     },
     "score": 148,
     "rank": 3,
-    "feature": [
+    "features": [
       {
         "name": "Undergrad Enrollment",
         "value": 54000,
@@ -164,7 +164,7 @@ var data = [
     },
     "score": 149,
     "rank": 4,
-    "feature": [
+    "features": [
       {
         "name": "Undergrad Enrollment",
         "value": 22727,
@@ -216,7 +216,7 @@ var data = [
     },
     "score": 150,
     "rank": 5,
-    "feature": [
+    "features": [
       {
         "name": "Undergrad Enrollment",
         "value": 28120,
@@ -268,7 +268,7 @@ var data = [
     },
     "score": 156,
     "rank": 6,
-    "feature": [
+    "features": [
       {
         "name": "Undergrad Enrollment",
         "value": 30511,
@@ -320,7 +320,7 @@ var data = [
     },
     "score": 157,
     "rank": 7,
-    "feature": [
+    "features": [
       {
         "name": "Undergrad Enrollment",
         "value": 32964,
@@ -372,7 +372,7 @@ var data = [
     },
     "score": 163,
     "rank": 8,
-    "feature": [
+    "features": [
       {
         "name": "Undergrad Enrollment",
         "value": 22761,
@@ -424,7 +424,7 @@ var data = [
     },
     "score": 170,
     "rank": 9,
-    "feature": [
+    "features": [
       {
         "name": "Undergrad Enrollment",
         "value": 68825,
@@ -476,7 +476,7 @@ var data = [
     },
     "score": 170,
     "rank": 10,
-    "feature": [
+    "features": [
       {
         "name": "Undergrad Enrollment",
         "value": 28868,
