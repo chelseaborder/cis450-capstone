@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Palanquin:300');
+@import url('https://afeld.github.io/emoji-css/emoji.css');
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  font-family: 'Palanquin', sans-serif;
+  font-size: 21px;
+  color: #8f959a;
+  line-height: 1.5;
+  background: linear-gradient(0deg, #9b9b9b 0%, #474747 100%);
+}
+
+table {
+    border-collapse: collapse;
+    color: #fff;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #3c3c3c;
+}
+
+tr:nth-child(odd) {
+    background-color: #313131;
+}
+
+.container {
+  margin: 4em auto;
+}
+.inner-container {
+  position: relative;
+  max-width: 80%;
+  min-width: 360px;
+  height: 800px;
+  width: 100%;
+  margin: 0 auto 100px;
+}
+.content {
+  position: absolute;
+  opacity: 0;
+  top: 2em;
+  left: 10%;
+  width: 80%;
+  margin: 0 auto;
+}
+.active {
+  display: block !important;
+  margin: 0 auto;
+  opacity: 1;
+  transition: ease-in-out 1s;
+}
+.card {
+  position: relative;
+  background: #242424;
+  border-radius: 5px;
+  padding: 2em 0;
+  height: 600px;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.35);
+}
+.card:first-child, .card:nth-child(2) {
+  background: #fa824c;
+  height: 8px;
+  border-radius: 5px 5px 0 0;
+  padding: 0;
+  box-shadow: none;
+}
+.card:first-child {
+  margin: 0 20px;
+  background: #ff590c;
+}
+.card:nth-child(2) {
+  margin: 0 10px;
+}
+.card .progress-container {
+  background: rgba(255, 110, 0, 0.5);
+  height: 6px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 0 0 5px 5px;
+}
+.card .progress-container .step {
+  background-color: #fa824c;
+  height: 6px;
+  width: 10%;
+  border-radius: 0 0 0 5px;
+}
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #fff;
+  margin: 0;
+}
+h2{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #505050;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+p {
+  margin-top: 0;
+}
+a {
+  color: #00ced1;
+  text-decoration: none;
+  position: relative;
+}
+a:before {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #00ced1;
+  transition: 0.3s;
+}
+a:hover:before {
+  width: 80%;
+}
