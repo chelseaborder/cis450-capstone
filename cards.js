@@ -6,7 +6,7 @@ $(document).ready(function() {
     var inactive1 = $('.inactive-1');
     var inactive2 = $('.inactive-2');
 
-    $('.button').click(function() {
+    $('.btn').click(function() {
         var nextItem = currentItem.next();
         var lastItem = content.last();
         var contentFirst = content.first();
@@ -16,19 +16,19 @@ $(document).ready(function() {
         if (currentItem.is(lastItem)) {
             currentItem = contentFirst.addClass('active');
             currentItem.css({'right': '10%', 'opacity': '1'});
-            $('.step').animate({width: '20%'});
+            $('.step').animate({width: '10%'});
             inactive1.animate({height: '8px', marginLeft:'20px', marginRight:'20px'}, 100);
             inactive2.animate({height: '8px', marginLeft:'10px', marginRight:'10px'}, 100);
 
         } else if (currentItem.is(contentFirst)) {
             currentItem.animate({opacity: 0}, 1000);
             currentItem = nextItem.addClass('active');
-            $('.step').animate({width: '30%'});
+            $('.step').animate({width: '20%'});
             inactive2.animate({height: '0', marginLeft:'0px', marginRight:'0px'}, 100);
 
         } else {
             currentItem = nextItem.addClass('active');
-            $('.step').animate({width: '100%'});
+            $('.step').animate({width: '30%'});
             inactive1.animate({height: '0', marginLeft:'0px', marginRight:'0px'}, 100);
         }
     });
