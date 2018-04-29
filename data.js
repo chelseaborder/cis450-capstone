@@ -15,12 +15,12 @@ var schools = [
         "rank": 5
       },
       {
-        "name": "Off-Campus (%)",
+        "name": "Off-Campus Students(%)",
         "value": 0.818,
         "rank": 7
       },
       {
-        "name": "Parking Cost ($/year)",
+        "name": "Parking Cost per Year ($)",
         "value": 669,
         "rank": 18
       },
@@ -30,12 +30,12 @@ var schools = [
         "rank": 40
       },
       {
-        "name": "Neighborhood (< 1 mi.)",
+        "name": "Nearest Neighborhood Distance (mi.)",
         "value": 0.03,
         "rank": 1
       },
       {
-        "name": "Median Income ($)",
+        "name": "Neighborhood Median Income ($)",
         "value": 19722,
         "rank": 11
       },
@@ -47,6 +47,11 @@ var schools = [
       {
         "name": "Demand",
         "value": 30,
+        "rank": 1
+      },
+      {
+        "name": "Total",
+        "value": 82,
         "rank": 1
       }
     ]
@@ -67,12 +72,12 @@ var schools = [
         "rank": 24
       },
       {
-        "name": "Off-Campus (%)",
+        "name": "Off-Campus Students(%)",
         "value": 0.74,
         "rank": 36
       },
       {
-        "name": "Parking Cost ($/year)",
+        "name": "Parking Cost per Year ($)",
         "value": 1404,
         "rank": 3
       },
@@ -82,12 +87,12 @@ var schools = [
         "rank": 3
       },
       {
-        "name": "Neighborhood (< 1 mi.)",
+        "name": "Nearest Neighborhood Distance (mi.)",
         "value": 0.2,
         "rank": 23
       },
       {
-        "name": "Median Income ($)",
+        "name": "Neighborhood Median Income ($)",
         "value": 25452,
         "rank": 49
       },
@@ -100,6 +105,11 @@ var schools = [
         "name": "Demand",
         "value": 63,
         "rank": 7
+      },
+      {
+        "name": "Total",
+        "value": 138,
+        "rank": 2
       }
     ]
   },
@@ -119,12 +129,12 @@ var schools = [
         "rank": 2
       },
       {
-        "name": "Off-Campus (%)",
+        "name": "Off-Campus Students(%)",
         "value": 0.792,
         "rank": 15
       },
       {
-        "name": "Parking Cost ($/year)",
+        "name": "Parking Cost per Year ($)",
         "value": 780,
         "rank": 14
       },
@@ -134,12 +144,12 @@ var schools = [
         "rank": 12
       },
       {
-        "name": "Neighborhood (< 1 mi.)",
+        "name": "Nearest Neighborhood Distance (mi.)",
         "value": 0.1,
         "rank": 10
       },
       {
-        "name": "Median Income ($)",
+        "name": "Neighborhood Median Income ($)",
         "value": 52588,
         "rank": 95
       },
@@ -152,6 +162,11 @@ var schools = [
         "name": "Demand",
         "value": 31,
         "rank": 2
+      },
+      {
+        "name": "Total",
+        "value": 148,
+        "rank": 3
       }
     ]
   },
@@ -171,12 +186,12 @@ var schools = [
         "rank": 34
       },
       {
-        "name": "Off-Campus (%)",
+        "name": "Off-Campus Students(%)",
         "value": 0.74,
         "rank": 37
       },
       {
-        "name": "Parking Cost ($/year)",
+        "name": "Parking Cost per Year ($)",
         "value": 628,
         "rank": 21
       },
@@ -186,12 +201,12 @@ var schools = [
         "rank": 24
       },
       {
-        "name": "Neighborhood (< 1 mi.)",
+        "name": "Nearest Neighborhood Distance (mi.)",
         "value": 0.1,
         "rank": 12
       },
       {
-        "name": "Median Income ($)",
+        "name": "Neighborhood Median Income ($)",
         "value": 21032,
         "rank": 21
       },
@@ -204,6 +219,11 @@ var schools = [
         "name": "Demand",
         "value": 92,
         "rank": 15
+      },
+      {
+        "name": "Total",
+        "value": 149,
+        "rank": 4
       }
     ]
   },
@@ -223,12 +243,12 @@ var schools = [
         "rank": 23
       },
       {
-        "name": "Off-Campus (%)",
+        "name": "Off-Campus Students(%)",
         "value": 0.68,
         "rank": 50
       },
       {
-        "name": "Parking Cost ($/year)",
+        "name": "Parking Cost per Year ($)",
         "value": 1975,
         "rank": 2
       },
@@ -238,12 +258,12 @@ var schools = [
         "rank": 16
       },
       {
-        "name": "Neighborhood (< 1 mi.)",
+        "name": "Nearest Neighborhood Distance (mi.)",
         "value": 0.1,
         "rank": 11
       },
       {
-        "name": "Median Income ($)",
+        "name": "Neighborhood Median Income ($)",
         "value": 25339,
         "rank": 48
       },
@@ -256,6 +276,11 @@ var schools = [
         "name": "Demand",
         "value": 75,
         "rank": 11
+      },
+      {
+        "name": "Total",
+        "value": 150,
+        "rank": 5
       }
     ]
   },
@@ -275,12 +300,12 @@ var schools = [
         "rank": 15
       },
       {
-        "name": "Off-Campus (%)",
+        "name": "Off-Campus Students(%)",
         "value": 0.774,
         "rank": 20
       },
       {
-        "name": "Parking Cost ($/year)",
+        "name": "Parking Cost per Year ($)",
         "value": 1185,
         "rank": 5
       },
@@ -290,12 +315,12 @@ var schools = [
         "rank": 68
       },
       {
-        "name": "Neighborhood (< 1 mi.)",
+        "name": "Nearest Neighborhood Distance (mi.)",
         "value": 0.06,
         "rank": 4
       },
       {
-        "name": "Median Income ($)",
+        "name": "Neighborhood Median Income ($)",
         "value": 24784,
         "rank": 44
       },
@@ -308,6 +333,11 @@ var schools = [
         "name": "Demand",
         "value": 40,
         "rank": 4
+      },
+      {
+        "name": "Total",
+        "value": 156,
+        "rank": 6
       }
     ]
   },
@@ -327,12 +357,12 @@ var schools = [
         "rank": 8
       },
       {
-        "name": "Off-Campus (%)",
+        "name": "Off-Campus Students(%)",
         "value": 0.8,
         "rank": 13
       },
       {
-        "name": "Parking Cost ($/year)",
+        "name": "Parking Cost per Year ($)",
         "value": 692,
         "rank": 16
       },
@@ -342,12 +372,12 @@ var schools = [
         "rank": 11
       },
       {
-        "name": "Neighborhood (< 1 mi.)",
+        "name": "Nearest Neighborhood Distance (mi.)",
         "value": 0.3,
         "rank": 47
       },
       {
-        "name": "Median Income ($)",
+        "name": "Neighborhood Median Income ($)",
         "value": 26726,
         "rank": 62
       },
@@ -360,6 +390,11 @@ var schools = [
         "name": "Demand",
         "value": 37,
         "rank": 3
+      },
+      {
+        "name": "Total",
+        "value": 157,
+        "rank": 7
       }
     ]
   },
@@ -379,12 +414,12 @@ var schools = [
         "rank": 33
       },
       {
-        "name": "Off-Campus (%)",
+        "name": "Off-Campus Students(%)",
         "value": 0.85,
         "rank": 6
       },
       {
-        "name": "Parking Cost ($/year)",
+        "name": "Parking Cost per Year ($)",
         "value": 600,
         "rank": 24
       },
@@ -394,12 +429,12 @@ var schools = [
         "rank": 30
       },
       {
-        "name": "Neighborhood (< 1 mi.)",
+        "name": "Nearest Neighborhood Distance (mi.)",
         "value": 0.1,
         "rank": 15
       },
       {
-        "name": "Median Income ($)",
+        "name": "Neighborhood Median Income ($)",
         "value": 57099,
         "rank": 55
       },
@@ -411,6 +446,11 @@ var schools = [
       {
         "name": "Demand",
         "value": 63,
+        "rank": 8
+      },
+      {
+        "name": "Total",
+        "value": 163,
         "rank": 8
       }
     ]
@@ -431,12 +471,12 @@ var schools = [
         "rank": 1
       },
       {
-        "name": "Off-Campus (%)",
+        "name": "Off-Campus Students(%)",
         "value": 0.76,
         "rank": 26
       },
       {
-        "name": "Parking Cost ($/year)",
+        "name": "Parking Cost per Year ($)",
         "value": 500,
         "rank": 31
       },
@@ -446,12 +486,12 @@ var schools = [
         "rank": 8
       },
       {
-        "name": "Neighborhood (< 1 mi.)",
+        "name": "Nearest Neighborhood Distance (mi.)",
         "value": 1,
         "rank": 94
       },
       {
-        "name": "Median Income ($)",
+        "name": "Neighborhood Median Income ($)",
         "value": 19631,
         "rank": 10
       },
@@ -464,6 +504,11 @@ var schools = [
         "name": "Demand",
         "value": 58,
         "rank": 5
+      },
+      {
+        "name": "Total",
+        "value": 170,
+        "rank": 9
       }
     ]
   },
@@ -483,12 +528,12 @@ var schools = [
         "rank": 21
       },
       {
-        "name": "Off-Campus (%)",
+        "name": "Off-Campus Students(%)",
         "value": 0.76,
         "rank": 25
       },
       {
-        "name": "Parking Cost ($/year)",
+        "name": "Parking Cost per Year ($)",
         "value": 300,
         "rank": 57
       },
@@ -498,12 +543,12 @@ var schools = [
         "rank": 10
       },
       {
-        "name": "Neighborhood (< 1 mi.)",
+        "name": "Nearest Neighborhood Distance (mi.)",
         "value": 0.2,
         "rank": 25
       },
       {
-        "name": "Median Income ($)",
+        "name": "Neighborhood Median Income ($)",
         "value": 22201,
         "rank": 32
       },
@@ -516,6 +561,11 @@ var schools = [
         "name": "Demand",
         "value": 103,
         "rank": 19
+      },
+      {
+        "name": "Total",
+        "value": 170,
+        "rank": 10
       }
     ]
   }

@@ -1,2 +1,2 @@
-# wpc480-capstone
-Card display project for WPC480 Senior Capstone 
+# CIS450-capstone
+Data Project for CIS450 Enterprise Analytics

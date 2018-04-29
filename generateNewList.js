@@ -21,12 +21,12 @@ for(const oldSchool of oldSchoolsList){
         rank: oldSchool.ugscore
       },
       {
-        name: 'Off-Campus (%)',
+        name: 'Off-Campus Students(%)',
         value: oldSchool.offcampus,
         rank: oldSchool.offcampusscore
       },
       {
-        name: 'Parking Cost ($/year)',
+        name: 'Parking Cost per Year ($)',
         value: oldSchool.parkingcost,
         rank: oldSchool.pcrank
       },
@@ -36,12 +36,12 @@ for(const oldSchool of oldSchoolsList){
         rank: oldSchool.churchscore
       },
       {
-        name: 'Neighborhood (< 1 mi.)',
+        name: 'Nearest Neighborhood Distance (mi.)',
         value: oldSchool.neighborhood,
         rank: oldSchool.neighborhoodscore
       },
       {
-        name: 'Median Income ($)',
+        name: 'Neighborhood Median Income ($)',
         value: oldSchool.medianincome,
         rank: oldSchool.medianincomerank
       },
@@ -54,6 +54,11 @@ for(const oldSchool of oldSchoolsList){
         name: 'Demand',
         value: oldSchool.demandscore,
         rank: oldSchool.demandrank
+      },
+      {
+        name: 'Total',
+        value: oldSchool.totalscore,
+        rank: oldSchool.totalrank
       }
     ]
   }
