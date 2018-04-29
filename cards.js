@@ -20,14 +20,15 @@ $(document).ready(function() {
         var contentSixth = contentItemPlace.eq(5);
         var contentSeventh = contentItemPlace.eq(6);
         var contentEigth = contentItemPlace.eq(7);
+        console.log(contentEigth);
 
 
-        for (var i = 1; i < contentItemPlace.length-1; i++) {
+        for (var i = 1; i < contentItemPlace.length-3; i++) {
           var itemList = [];
           var items = contentItemPlace.eq(i);
-
-          itemList.push(items);
         }
+
+
 
         currentItem.removeClass('active');
 
@@ -41,13 +42,13 @@ $(document).ready(function() {
 
 
         } else if (currentItem.is(contentFirst)) {
-            currentItem.animate({opacity: 0}, 2000);
+            currentItem.animate({opacity: 0}, 1000);
             currentItem = nextItem.addClass('active');
             $('.step').animate({width: '20%'});
             inactive3.animate({height: '0', marginLeft:'0px', marginRight:'0px'}, 100);
 
         } else if (currentItem.is(contentSecond)) {
-            currentItem.animate({opacity: 0}, 2000);
+            currentItem.animate({opacity: 0}, 1000);
             currentItem = nextItem.addClass('active');
             $('.step').animate({width: '30%'});
             inactive2.animate({height: '0', marginLeft:'0px', marginRight:'0px'}, 100);

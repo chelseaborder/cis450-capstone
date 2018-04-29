@@ -57,7 +57,7 @@ var schools = [
     ]
   },
   {
-    "name": "University of California: Berkely",
+    "name": "University of California: Berkeley",
     "location": {
       "city": "Berkeley",
       "state": "CA",

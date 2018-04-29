@@ -16,6 +16,11 @@ table {
     color: #000;
 }
 
+th {
+  color: #4286f4;
+  letter-spacing: 1px;
+}
+
 td, th {
     text-align: left;
     padding: 8px 0px;
@@ -69,7 +74,7 @@ tr{
   height: 620px;
   box-sizing: border-box;
   transition: 0.3s ease;
-  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.55);
+  box-shadow: 10px 10px 26px -2px rgba(0,0,0,0.15);
 }
 .card:first-child, .card:nth-child(2), .card:nth-child(3) {
   height: 8px;
@@ -90,7 +95,6 @@ tr{
   margin: 0 10px;
   background: #4286f4;
 }
-
 
 .card .progress-container {
   background: #022b6d;
@@ -116,6 +120,7 @@ h1 {
   color: #000;
   margin: 0;
 }
+
 h2{
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
@@ -125,11 +130,16 @@ h2{
   margin-bottom: 20px;
 }
 
+h4 {
+  text-align: right;
+  margin-right: 10px;
+}
+
 p {
   margin-top: 0;
 }
 
-a{
+a {
   text-decoration:none;
 }
 
@@ -152,9 +162,4 @@ a{
 .btn-primary:hover {
   transform: scale(1.1);
   color: #188e9b;
-}
-
-h4 {
-  text-align: right;
-  margin-right: 10px;
 }
