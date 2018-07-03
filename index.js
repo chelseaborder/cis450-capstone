@@ -41,7 +41,10 @@
           </tr>
           ${rows}
         </table>
-          <h4><a class="button btn btn-primary" href="#">Next School &rarr;</a></h4>
+          <center>
+            <a class="button btn btn-prev btn-primary" href="#">&larr; Previous School</a>
+            <a class="button btn btn-next btn-primary" href="#">Next School &rarr;</a>
+          </center>
       </div>
     `
 

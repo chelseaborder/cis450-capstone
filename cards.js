@@ -7,7 +7,7 @@ $(document).ready(function() {
     var inactive2 = $('.inactive-2');
     var inactive3 = $('.inactive-3');
 
-    $('.btn').click(function() {
+    $('.btn-next').click(function() {
         var nextItem = currentItem.next();
         var lastItem = content.last();
         var contentFirst = content.first();
@@ -20,15 +20,6 @@ $(document).ready(function() {
         var contentSixth = contentItemPlace.eq(5);
         var contentSeventh = contentItemPlace.eq(6);
         var contentEigth = contentItemPlace.eq(7);
-        console.log(contentEigth);
-
-
-        for (var i = 1; i < contentItemPlace.length-3; i++) {
-          var itemList = [];
-          var items = contentItemPlace.eq(i);
-        }
-
-
 
         currentItem.removeClass('active');
 
@@ -39,7 +30,6 @@ $(document).ready(function() {
             inactive1.animate({height: '8px', marginLeft:'30px', marginRight:'30px'}, 100);
             inactive2.animate({height: '8px', marginLeft:'20px', marginRight:'20px'}, 100);
             inactive3.animate({height: '8px', marginLeft:'10px', marginRight:'10px'}, 100);
-
 
         } else if (currentItem.is(contentFirst)) {
             currentItem.animate({opacity: 0}, 1000);
@@ -90,5 +80,6 @@ $(document).ready(function() {
             $('.step').animate({width: '100%'});
         }
     });
+
 
 });
